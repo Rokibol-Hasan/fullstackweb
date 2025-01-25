@@ -1,80 +1,39 @@
 <!DOCTYPE html>
-<!-- Document type define -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HabiJabi</title>
-    <!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
-    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
   </head>
   <body>
-    <h1 style="background-color: darkmagenta; text-align: center; color: white; padding: 10px;">Welcome to my page</h1>
 
 
-    <section class="cities" style="display: flex; justify-content: space-between; gap: 20px;">
-      <div style="width: 500px; border: 1px solid gray; padding: 5px;">
-        <img src="./img/road.jpg" width="100%" alt="">
-        <h3 style="text-align: center;">Road</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quos doloremque omnis, officia nostrum at quas numquam voluptate aliquam odit saepe, nemo vitae maiores cumque similique possimus doloribus mollitia maxime?</p>
-      </div>
-      <div style=" width: 500px; border: 1px solid gray; padding: 5px;">
-        <img src="./img/gate.jpg" width="100%"  alt="">
-        <h3 style="text-align: center;">Tower</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quos doloremque omnis, officia nostrum at quas numquam voluptate aliquam odit saepe, nemo vitae maiores cumque similique possimus doloribus mollitia maxime?</p>
-      </div>
-      <div style=" width: 500px; border: 1px solid gray; padding: 5px;">
-        <img src="./img/building.jpg" width="100%" alt="">
-        <h3 style="text-align: center;">Building</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quos doloremque omnis, officia nostrum at quas numquam voluptate aliquam odit saepe, nemo vitae maiores cumque similique possimus doloribus mollitia maxime?</p>
-      </div>
-      <div style=" width: 500px; border: 1px solid gray; padding: 5px;">
-        <img src="./img/river.jpg" width="100%"  alt="">
-        <h3 style="text-align: center;">River</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quos doloremque omnis, officia nostrum at quas numquam voluptate aliquam odit saepe, nemo vitae maiores cumque similique possimus doloribus mollitia maxime?</p>
+    <form action="" method="" enctype="multipart/form-data">
 
-        <p><s style="color:gray">$50</s> $30</p>
-      </div>
-    </section>
+      <label for="email">Email</label>
+      <input type="text" value="email" disabled id="email" placeholder="john@gmail.com" /><br /><br />
+
+      <label for="atik">Password</label>
+      <input type="password" id="atik" placeholder="*******" /><br /><br />
+
+      <label for="city">City</label>
+      <select id="city" value="Select">
+        <option>Select</option>
+        <option>Dhaka</option>
+        <option>Ctg</option>
+        <option>Sylhet</option>
+        <option>Khulna</option>
+      </select><br><br>
+
+
+      <label for="description">Description</label>
+      <textarea id="description" placeholder="Your text here" rows="5" cols="15"></textarea>
+      <br><br>
 
 
 
+      <button>Login</button>
 
-
-
-
-
-
-    <!-- Understanding Flex Property  -->
-    <!-- <section class="ad-banner" style="display: flex; justify-content:space-between;">
-      <div class="first" style="height:100px; width: 100px;">
-          <h1>First</h1>
-          <img src="./img/demo.jpg" width="100%" alt="">
-      </div>
-      <div class="second" style="height:100px; width: 100px;">
-        <h1>Second</h1>
-        <img src="./img/demo.jpg" width="100%" alt="">
-      </div>
-      <div class="third" style="height:100px; width: 100px;">
-        <h1>Third</h1>
-        <img src="./img/demo.jpg" width="100%" alt="">  
-      </div>
-    </section> -->
-
-    <!-- <p style="background-color: red; color: #fff; text-align: justify; padding:20px; border: 3px solid #000; border-radius: 10px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsa eius voluptatum dolores nostrum aperiam veniam earum officia laboriosam doloremque id vero ullam porro recusandae corrupti? Minima tempora alias, doloremque modi repellat sunt molestiae earum? Voluptate veritatis temporibus earum excepturi. Illo voluptate quos sed ea rem facilis adipisci, error alias inventore fugit provident accusantium ad laborum porro aliquam suscipit quae repellendus ipsam, beatae asperiores est. Optio quam dicta veritatis beatae iste vitae sit voluptatem voluptates mollitia possimus! Alias iure veritatis tempore tempora unde voluptatum labore illum molestiae porro numquam. Beatae blanditiis asperiores nobis facere, ullam aliquam iusto voluptate. Minus aperiam ullam nam nostrum obcaecati a rem facilis numquam qui tempore quas, illum inventore nemo ipsum veniam, minima impedit eligendi autem rerum vero ex velit dolores perspiciatis laboriosam. Corrupti sint asperiores aperiam similique nesciunt ad consequuntur necessitatibus architecto deserunt itaque! Officia ea cupiditate voluptas! Hic adipisci nemo saepe, esse quas nostrum, impedit aliquid velit nam, porro officia quod vel architecto? Numquam corrupti vero error, iste eum obcaecati porro tempore sit et illo laborum? Eligendi eveniet beatae facilis illum provident! Quae quasi harum veniam aliquid veritatis. Numquam quibusdam ipsum ratione ut impedit quas vitae reiciendis suscipit tempora magni. Dolorem sint voluptate quae?</p> -->
-
-
-
-  <!-- <video src="./videos/animal.MP4" controls autoplay height="400px" width="100%"></video> -->
-
-    <!-- <audio src="./audios/audio.mp3" autoplay controls> </audio> -->
-<!-- 
-    <audio controls autoplay>
-      <source src="./audios/audio.mp3">
-    </audio> -->
-
-
-
-
+    </form>
   </body>
 </html>
