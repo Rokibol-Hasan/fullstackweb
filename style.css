@@ -1,22 +1,23 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.first-section{
+    background-color: aqua;
 }
-h1,h2,h3,h4,h5,h6,p{
-    padding: 0;
-    margin: 0;
+
+.second-section{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-ul li a{
-    text-decoration: none;
+.another-div{
+    background-color: yellow;
 }
-ul{
-    display: flex;
-    gap: 45px;
+
+.second-section .another-div h1{
+    color: black;
 }
-header{
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    background-color: lightblue;
-} */
+.second-section .another-div h3{
+    color: rgb(221, 25, 25);
+}
+.second-section .another-div p{
+    color: rgba(158, 3, 182, 0.993);
+}
