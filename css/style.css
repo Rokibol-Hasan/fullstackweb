@@ -1,0 +1,171 @@
+header {
+  background-color: #1d4a68;
+  padding: 10px 0px;
+}
+header i.fa-home{
+  color: white;
+  font-size: 50px !important;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .search input {
+    border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #5f8197;
+}
+
+header .search input:focus{
+    outline: 2px solid rgb(129, 196, 240);
+}
+
+header .search input::placeholder{
+    color:white;
+}
+
+header .search input[placeholder]{
+    color: white;
+}
+
+header .search i {
+  color: white;
+  font-size: 25px;
+  margin-left: 7px;
+  align-items: center;
+}
+
+.banner{
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+  color: white;
+  /* make a overlay */
+  position: relative;
+}
+
+.banner::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+.banner .content{
+  z-index: 1;
+}
+.banner h2{
+  padding: 10px;
+  text-align: center;
+  font-family: "Caprasimo", serif;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+} 
+
+.banner .banner-btn{
+  text-align: center;
+  margin-top: 20px;
+}
+.banner p{
+  text-align: center;
+  font-family: "Lucida handwriting", cursive;
+}
+.banner .banner-btn a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Caprasimo", serif;
+  background-color: #1d4a689a;
+}
+
+.icons{
+  position: absolute;
+  top:30%;
+  left: -40px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color:   rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 0px 10px 10px 0px;
+  z-index: 2;
+  transition: left 0.7s ease, background-color 0.5s ease;
+}
+.icons i{
+  color: white ;
+
+}
+.icons a{
+  padding:0;
+}
+.icons a:hover,
+.icons i:hover{
+  color: #00ffaa;
+  transition: all 0.5s ease;
+}
+
+.icons:hover{
+  cursor: pointer;
+  left: 0px;  
+  background-color: #1d4a68;
+}
+
+.position{
+
+}
+
+.parent{
+  background-color: red;
+  padding: 20px;
+  position: relative;
+
+
+
+}
+ .parent .box1{
+   background-color: #00ffaa;
+   padding: 20px; 
+   position: absolute;
+   left: 50px;
+
+ }
+ .parent .box2{
+    background-color: #1d4a68;
+      padding: 20px;
+ }
+ .parent .box3{
+    background-color: springgreen;
+    padding: 20px;
+ }
+
+ /* .position-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+ } */
