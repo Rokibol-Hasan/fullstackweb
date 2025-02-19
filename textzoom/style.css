@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-animation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #0d0d31;
+}
+
+.text-animation span{
+    font-size: 7rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #0f0ce9;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes zoom{
+    0%{
+        transform: scaleY(0.6) scaleX(0.6);
+        text-shadow: 2px 14px #100066;
+    }
+    100%{
+        transform: scaleY(1) scaleX(1);
+        text-shadow: 2px 14px #100066;
+
+    }
+    
+}

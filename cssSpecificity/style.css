@@ -1,0 +1,10 @@
+.col-6 span{
+    background-color: red;
+}
+.row #text{
+    background-color: blue;
+}
+.container .row .col-6 span{
+    background-color: green;
+}
+
