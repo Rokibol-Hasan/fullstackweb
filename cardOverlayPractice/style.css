@@ -66,10 +66,9 @@
     top: 0;
 }
 
-.button ul li::before{
-    content: "🗻";
-}
-.button ul li::after{
-    content: "";
-    
+.button{
+    background: url('./logo.webp') no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
 }
