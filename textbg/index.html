@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Background with Shadow</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+        .text-style h1{
+            position: relative;
+            font-size: 2rem;
+            font-weight: bold;
+            color: green;
+        }
+        .text-style::after{
+            content: "About Us";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4rem;
+            font-weight: bold;
+            color: #00000010;
+            z-index: -1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="text-style">
+        <h1>About Us</h1>
+    </div>
+
+
+</body>
+</html>
