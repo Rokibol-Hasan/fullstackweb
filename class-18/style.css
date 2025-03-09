@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "popins",sans-serif;
+}
+/* 
+.main-diver-bap{
+    padding: 50px;
+    background: pink;
+    position: relative;
+}
+
+.main-div{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
+
+
+.main-div img.icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 60px;
+    top:20px;
+
+} */
+
+.card h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 700px;
+    padding: 40px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+}
+form a{
+    padding: 10px 20px;
+    background-color: rgb(92, 174, 255);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+form label{
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+
