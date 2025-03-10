@@ -1,19 +1,27 @@
 .flexcard{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     gap: 2rem;
 }
-.card1, .card2{
+.card1{
     border: 2px solid black;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
+}
+.card2{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
 }
 
 .gridcard{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    align-items: start;
 }
 
 .item-1, .item-2{
